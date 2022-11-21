@@ -1,0 +1,42 @@
+.container{
+width: 1000px;
+background-color: coral;
+display: flex;
+}
+.item{
+    height: 200px;
+}
+.item1{
+    background-color: pink;
+    flex: 1;
+}
+.item2{
+    background-color: skyblue;
+    flex: 1;
+}
+
+.measure{
+    width: 1000px;
+ display: flex;
+ flex-direction: row;
+ box-sizing: border-box;
+ background: linear-gradient(to right, #9af5a7, rgb(5, 125, 29));
+}
+.measure div{
+padding: 5px;
+width: 100px;
+border: 1px solid black;
+text-align: right;
+}
+/* .measure div:nth-of-type(1){
+    background: rgb(188, 243, 188);
+} */
+/* .measure div:nth-of-type(2){background:rgb(119,224,119);}
+.measure div:nth-of-type(3){background:rgb(130,210,130);}
+.measure div:nth-of-type(4){background:rgb(170,280,170);}
+.measure div:nth-of-type(5){background:rgb(119,224,119);}
+.measure div:nth-of-type(6){background:rgb(15, 244, 15);}
+.measure div:nth-of-type(7){background:green;}
+.measure div:nth-of-type(8){background:green;}
+.measure div:nth-of-type(9){background:green;}
+.measure div:nth-of-type(10){background:green;} */

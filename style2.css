@@ -1,0 +1,38 @@
+h1{
+    background-color: brown;
+}
+body{
+    background-color: aqua;
+}
+.title{
+    background-color: antiquewhite;
+}
+.big{
+    font-size: 5rem;
+}
+#title{
+    font-size: 4rem;
+}
+article *{
+    color: coral;
+}
+a[href="@"] {color: chartreuse;}
+a[href^="##"]{color: black;}
+a[href*="ls"]{color: blueviolet;}
+a[href$="nr"]{color: darkgreen;}
+article p:first-of-type{background-color: darkviolet;}
+article p:last-of-type{background-color: forestgreen;}
+article p:nth-of-type(3){background-color: lightpink;}
+footer small:not(:hover){background-color: lightsalmon;}
+h1::after{
+    content: "aaaaaaa"
+}
+h1::before{
+    content: "aaaaaa"
+}
+h1::first-line{font-size: 3rem;}
+h1::first-letter{font-size: 6rem;}
+footer > small{color: seagreen;}
+article p + p {font-size: 2rem;}
+article p + p {margin-top: 100px;}
+article p ~ p {margin-left: 100px;}
